@@ -104,13 +104,13 @@ def molFp(mNum):
     ppdb = PandasPdb()#.fetch_pdb('3eiy')
     #load file from the local desktop
     #temporary test files
-    # fpath='D:\Professional\\TheProject\\Codes\\Structures\\pdb\\temp\\'
+    # fpath='D:\Codes\\Structures\\pdb\\temp\\'
     
     fpath='D:Structures\pdb\\'
     
     
     
-    # filename=('E:\Professional\TheProject\Codes\Structures\pdb\\'+str(xx)+''.pdb')
+    # filename=('E:\Codes\Structures\pdb\\'+str(xx)+''.pdb')
     filename=fpath+str(mNum)+'.pdb'
     p_1=ppdb.read_pdb(filename)
     # print('PDB Code: %s' % ppdb.code)
@@ -996,9 +996,9 @@ def molFp(mNum):
     # fpArray.append(fpnames) 
     return  fpnames  
 #%%  append fpnames to fpArray 
-fpath='D:\Professional\TheProject\Codes\Structures\pdb\\'
+fpath='D:\Codes\Structures\pdb\\'
 #temporary test files
-# fpath='D:\\Professional\\TheProject\\Codes\\Structures\\pdb\\temp\\'
+# fpath='D:\Codes\\Structures\\pdb\\temp\\'
 count = 0
 # Iterate directory
 for path in os.listdir(fpath):
